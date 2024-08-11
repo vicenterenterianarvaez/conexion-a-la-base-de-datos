@@ -89,7 +89,7 @@ int main() {
     ret = SQLAllocHandle(SQL_HANDLE_STMT, hDbc, &hStmt);
 
 
-    // Ejemplo de consulta SELECT tabla Directivos
+    // consulta SELECT tabla Directivos
     ret = SQLExecDirect(hStmt, (SQLWCHAR*)L"SELECT * FROM Directivos", SQL_NTS); //En From escribir nombre de la tabla
     if (ret == SQL_SUCCESS || ret == SQL_SUCCESS_WITH_INFO) {
         int NumeroEmpleado;
