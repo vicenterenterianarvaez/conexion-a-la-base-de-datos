@@ -80,7 +80,7 @@ int main() {
 
     cout << "+---------------+--------+------------+------------+--------------+-----------+--------+--------+-------------+-----------+" << endl;
 
-    // Imprimir encabezados de la tabla
+    // Imprimir encabezados de la tabla.
     cout << "+---------------+--------------------+---------------------------+" << endl;
     cout << "| No. Empleado  | Centro Supervisado | Prestacion de Combustible |" << endl;
     cout << "+---------------+--------------------+---------------------------+" << endl;
